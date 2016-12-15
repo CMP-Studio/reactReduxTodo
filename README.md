@@ -1,7 +1,7 @@
 
 Tasks:  
 1. Install node  
-2. Download repo  
+2. Git clone the repo  
 3. Install repo dependencies with 'npm i'  
 4. Run repo with 'npm start'  
 5. Separate out header component  
