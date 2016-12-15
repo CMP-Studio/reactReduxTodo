@@ -1,3 +1,13 @@
+
+Tasks:
+1. Install node
+2. Download repo
+3. Install repo dependencies with 'npm i';
+4. Run repo with 'npm start';
+5. Separate out header component
+6. Rename ADD_TODOS action to ADD_INDIVIDUAL_TODO and fix all of the errors
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
