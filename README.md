@@ -7,7 +7,11 @@ Tasks:
 5. Separate out header component  
 6. Rename ADD_INDIVIDUAL_TODO action to ADD_INDIVIDUAL_TODO and fix all of the errors  
 7. Install Git and SourceTree - Done  
-8. Setup SourceTree with GitHub account - Done
+8. Setup SourceTree with GitHub account - Done  
+9. Add abilty to delete an individual todo  
+10. Add abilty to 'check off' an individual todo which then renders that todo differently  
+11. Make todos persistent across browser sessions  
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
