@@ -6,6 +6,8 @@ Tasks:
 4. Run repo with 'npm start'  
 5. Separate out header component  
 6. Rename ADD_INDIVIDUAL_TODO action to ADD_INDIVIDUAL_TODO and fix all of the errors  
+7. Install Git and SourceTree - Done  
+8. Setup SourceTree with GitHub account - Done
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
