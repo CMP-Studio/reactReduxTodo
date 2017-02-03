@@ -8,9 +8,9 @@ Tasks:
 6. Rename ADD_INDIVIDUAL_TODO action to ADD_INDIVIDUAL_TODO and fix all of the errors  
 7. Install Git and SourceTree - Done  
 8. Setup SourceTree with GitHub account - Done  
-9. Add abilty to delete an individual todo  
-10. Add abilty to 'check off' an individual todo which then renders that todo differently  
-11. Make todos persistent across browser sessions  
+9. Add abilty to delete an individual todo  - Done
+10. Add abilty to 'check off' an individual todo which then renders that todo differently  - Done
+11. Make todos persistent across browser sessions  - Issues with this one
 
 
 

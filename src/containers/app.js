@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import App from '../components/app';
 
 import { addTodo } from '../actions/todos';
+import { completeTodo } from '../actions/todos'
+import { removeTodo } from '../actions/todos'
 
 const mapStateToProps = (state) => {
   return {
@@ -17,6 +19,8 @@ const mapDispatchToProps = (dispatch) => {
     actions:
       bindActionCreators({
         addTodo,
+        completeTodo,
+        removeTodo
       }, dispatch),
   };
 };

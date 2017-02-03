@@ -4,6 +4,8 @@ import logo from '../assets/logo.svg';
 import './App.css';
 
 import TodoForm from './addTodoForm';
+import TodoList from './todoList';
+
 
 const styles = {
   app: {
@@ -25,6 +27,8 @@ const styles = {
   },
 }
 
+
+
 const App = (props) => {
   return (
     <div style={styles.app}>
@@ -38,13 +42,10 @@ const App = (props) => {
           addTodo: props.actions.addTodo,
         }}
       />
-      <ul style={styles.todoList}>
-        {props.todos.map((todo, index) => {
-          return (
-            <li key={index}>{todo}</li>
-          )
-        })}
-      </ul>
+      <TodoList actions={{
+        completeTodo: props.actions.completeTodo,
+        removeTodo: props.actions.removeTodo
+      }} todos={props.todos} styles={styles} store={props.store}/>
     </div>
   );
 }
