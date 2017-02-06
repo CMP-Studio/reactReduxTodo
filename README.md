@@ -8,9 +8,17 @@ Tasks:
 6. Rename ADD_INDIVIDUAL_TODO action to ADD_INDIVIDUAL_TODO and fix all of the errors  
 7. Install Git and SourceTree - Done  
 8. Setup SourceTree with GitHub account - Done  
-9. Add abilty to delete an individual todo  - Done
-10. Add abilty to 'check off' an individual todo which then renders that todo differently  - Done
-11. Make todos persistent across browser sessions  - Issues with this one
+9. Add abilty to delete an individual todo  - Done  
+9a. Push changes early and often
+9b. Use filter instead of modifying the array  
+9c. Do not use setState  
+10. Add abilty to 'check off' an individual todo which then renders that todo differently  - Done  
+10a. Fix the todo CSS layout  
+10b. Keep styles with components that use them  
+10c. Do not use setState  
+10d. Use array slices instead of modifying an array  
+10e. Use functional components  
+11. Make todos persistent across browser sessions  - Issues with this one  
 
 
 
