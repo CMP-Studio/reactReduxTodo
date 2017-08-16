@@ -1,0 +1,27 @@
+var numbers = [1, 2, 3, 4];
+var newNumbers = numbers.map(function(number){
+    return number * 2;
+});
+
+console.log("The doubled numbers are", newNumbers); 
+// [2, 4, 6, 8]
+
+var animal = new Map([['cow', 'moo'], ['dog', 'bark'], ['goat', 'I have no idea']]);
+
+console.log(animal.get('cow'));
+console.log(animal.get('dog'));
+console.log(animal.get('goat'));
+//moo, bark, I have no idea
+
+var x = new Map([['test', 'test'], ['5', 'I only accept strings'], ['{}', 'I only accept strings'],['()', 'Please pass an argument'], ]);
+
+console.log(x.get('test'));
+console.log(x.get('5'));
+console.log(x.get('{}'));
+console.log(x.get('()'));
+//test, I only accept strings, I only accept strings, Please pass an argument
+
+
+// Values stored in the map are not properties on
+// the object. get() is the only way to retrieve the values.
+
